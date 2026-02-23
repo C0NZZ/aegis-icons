@@ -91,18 +91,9 @@ Before making or requesting an icon for an app/site, refer to the "acceptability
 
 - Apps / sites **not** having Aegis supported 2FA support.
   - Also when service has officially discontinued 3rd party 2FA support (only supporting legacy users) and no known workaround for new users.
-- **Unregulated** (crypto) currency trading / investing platforms.
-  - Checked with [WikiBit](https://www.wikibit.com), [WikiFX](https://wikifx.com/en) and/or other search results.
-  - If no regulation information is found, request / submission is also rejected.
-  - Why this restriction?
-    1. Many of these platforms are scams or operate illegally in other ways.
-    2. There are too many requests for these platforms, and high maintenance is required.
-    3. Checking regulation is the only way to somewhat certainly determine the legality of the company.
 - Apps / sites **focusing** on **highly** immoral and illegal activity / material.
   - *Examples (not limited to):* black hat hacking, malware, malvertising, money laundering, illegal or highly controversal sexual material / services, harassment / cyberbullying etc.
 - Scams or other shady apps / sites.
-- Platforms having massive hate speech group following and poor moderation (a.k.a. "Alt-tech").
-  - *Examples (not limited to):* [most of the platforms listed here](https://en.wikipedia.org/wiki/Alt-tech#Platforms).
 - :warning: **Only for icon submissions:** submitting unmodified SVGs / [raster images](https://simple.wikipedia.org/wiki/Raster_graphics) from the web.
   - Icons must be designed manually for submissions.
 
