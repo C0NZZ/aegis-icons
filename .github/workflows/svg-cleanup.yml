@@ -1,0 +1,52 @@
+name: SVG Cleanup
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'icons/**/*.svg'
+  pull_request:
+    paths:
+      - 'icons/**/*.svg'
+  workflow_dispatch:
+
+jobs:
+  svgo:
+    name: Run SVGO
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          # Checkout the head ref for PRs to allow pushing back (if same repo)
+          # or the ref for push events.
+          ref: ${{ github.head_ref || github.ref }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install SVGO
+        run: npm install -g svgo
+
+      - name: Run SVGO
+        run: |
+          chmod +x .github/workflows/optimise.sh
+          ./.github/workflows/optimise.sh
+
+      - name: Commit and push changes
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            git config --global user.name 'github-actions[bot]'
+            git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+            git add icons/**/*.svg
+            git commit -m "style: apply SVG compression and cleanup"
+            git pull --rebase --autostash
+            git push
+          else
+            echo "No changes detected."
+          fi
