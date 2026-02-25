@@ -3,11 +3,11 @@ Contributions to the project are appreciated!
 
 *This documentation is long and comprehensive, because the project strives for high quality for the icons and aims to minimize extra work as much as possible.*
 
-> **Warning** \
+> [!WARNING]
 > Contributing **requires basic knowledge of making / editing vectors with a vector graphics editor** (see the [software](#software) section).\
 > Instructions are provided for some steps, but not for everything.
 
-> **Note** \
+> [!NOTE]
 > Having some **knowledge of graphic design** and design in general is **highly recommended**.
 
 ---
@@ -116,7 +116,7 @@ If the software isn't listed here or in the prohibited section, **check the soft
 
 **If the software mentions** being a *"vector graphics editor"* (and **not** a *"photo/image editor"*), then the software is most likely acceptable as long as vectors can be saved as SVG.
 
-> **Note** \
+> [!NOTE]
 > If the software is outside of the mentioned list, then there is no help or support for vector creation problems.
 
 #### _Prohibited_
@@ -158,7 +158,7 @@ To ensure that icons have been made correctly based of the CONTRIBUTING guidelin
 ### Finding source images
 Search through the logo resources to find a vector-based image (SVG, AI, EPS, PDF).
 
-> **Warning** \
+> [!WARNING]
 > Never use JPG / PNG / GIF / WebP or other raster images **(as is)!**
 
 *Here are things to check, go though these options in order:*
@@ -183,10 +183,10 @@ Search through the logo resources to find a vector-based image (SVG, AI, EPS, PD
   - :warning: Only use tools recommended in the "image tracing tools" section. *Using tool outside of the list is not acceptable.*
 - **Making a vectorised logo from scratch** is also an option with the necessary skills and patience.
 
-> **Note** \
+> [!NOTE]
 > Is the SVG file broken? [SVG compression with SVGO or SVGOMG](#svg-compression--cleanup) might just fix the file.
 
-> **Warning** \
+> [!WARNING]
 > Watch out for SVGs that are using raster graphics ([example](https://github.com/haiwen/seafile-client/blob/7d8f06111960921ce01ef08e169d41bae13959ed/data/icons/scalable/apps/seafile.svg?short_path=d0d75d2#L54-L218)). These are not common, but does exist.
 
 ### Templates
@@ -218,7 +218,7 @@ When making icons, download and use provided [templates](/_templates).
 #### _Icon grid_
 
 *Documentation coming soon...*
-*Please consider a pull reqest with this*
+*(krisu5 will add basic documentation)*
 
 ### Vectors
 - :warning: Logo must be in **single** path / compound path / object:
@@ -279,7 +279,7 @@ When making icons, download and use provided [templates](/_templates).
   - [More info at the "generic icons" section](#generic-icons).
   
 ### bg.var, fg.var & fg.bg.var icons
-> **Note** \
+> [!NOTE]
 > `var` is abbreviation of *variation*.
 
 - `bg.var` icons are for dark / AMOLED themes. These are made when **primary icon has dark background that blends in when using the darker theme.**
@@ -317,7 +317,7 @@ Just change the logo for alternative version.
     - [Link to SVG directory](https://github.com/spothq/cryptocurrency-icons/tree/master/svg/black).
 
 ### Save and export
-> **Note** \
+> [!NOTE]
 > Please read the info about naming at the [filename](#filename) section.
 
 - If using **Adobe Illustrator CC 2017 or newer**, save the file as SVG with *"Export for Screens"* option (*shortcut:* <kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>Alt [⌥ Option]</kbd>+<kbd>E</kbd> or *menu:* <kbd><i>File</i> ➜ <i>Export</i> ➜ <i>Export for Screens...</i></kbd>) with [these settings](https://raw.githubusercontent.com/aegis-icons/misc/main/screenshots/contributing_007.png).
@@ -360,13 +360,13 @@ Next, do SVG compression & cleanup.
 <sup>▲&nbsp;&nbsp;&nbsp; *SVG code formatting example*</sup>
 
 - :spiral_notepad: Checklist for SVG formatting:
-  - Check that the **indentation is 3 spaces** (important if SVGOMG was used).
+  - Check that the **indentation is either 2 or 3 spaces**.
   - Check that the **order of all the [elements](https://developer.mozilla.org/en-US/docs/Web/SVG/Element) and [attributes](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute) is EXACTLY same** as the *SVG code formatting example*.
   - Check that possible `fill="` **prefixes are changed to** `style="fill:`
   - **Remove all the [elements](https://developer.mozilla.org/en-US/docs/Web/SVG/Element) and [attributes](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute) that aren't featured** in the *SVG code formatting example*.
   - *See the [example SVG code after manual cleanup](https://github.com/aegis-icons/misc/commit/c0128f61f0d2b88d5953881699955a4a17477e47?diff=split) for aimed optimal result.*
 
-> **Note** \
+> [!NOTE]
 > **Test the SVG on the web browser** that the svg still works after edits! (drag-and-drop SVG to tab bar or *"Open File..." shortcut:* <kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>O</kbd>).
 
 When everything is done and ready to go, [submit icons with either as pull request or issue](#repository-submitting-options).
@@ -384,11 +384,11 @@ When everything is done and ready to go, [submit icons with either as pull reque
 - For the outdated icons, see the [new versions, version naming and organising old files](#new-versions-version-naming-and-organising-old-files) section.
 
 ### Filename
-> **Warning** \
+> [!WARNING]
 > When naming brand based icon(s), check how brand capitalised and spell the name from their app / website (check the capitalisation / spelling from browser tab title or body text of the website, **not from the logo!**).
 
-> **Note** – **Filename character limitations:** \
-> Only use [ISO basic Latin alphabet letters](https://en.wikipedia.org/wiki/ISO_basic_Latin_alphabet), numbers, spaces, dashes and other safe ASCII characters ([list of forbidden ASCII](https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names/31976060#31976060)).
+> [!NOTE]
+> **Filename character limitations:** Only use [ISO basic Latin alphabet letters](https://en.wikipedia.org/wiki/ISO_basic_Latin_alphabet), numbers, spaces, dashes and other safe ASCII characters ([list of forbidden ASCII](https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names/31976060#31976060)).
 
 - Primary icon:
   - `[Company / product / app / site name].<ext>`
@@ -430,7 +430,7 @@ Instead, PNGs are only made when noticing problems with SVG on Aegis and are add
 [List of SVG icons with known rendering issues and PNG counterparts are available here](https://github.com/aegis-icons/png-files/blob/main/.github/NOTICE.md).
 
 ### About JSONs
-> **Warning** \
+> [!WARNING]
 > Please do not submit PRs that make changes to JSON files!
 
 Because of the JSON update process, currently only maintainers are to make changes to JSONs.
@@ -464,7 +464,7 @@ More resources at [LogoSearch's "Alternative Logo Sources"](https://logosear.ch/
 
 ### Image tracing tools
 
-> **Note** \
+> [!NOTE]
 > Only use image tracing tool if there's no other option, **always use ready-made vectors if available.**
 
 In a nutshell, image tracing means converting raster image (PNG, JPG etc.) to vector file (SVG, EPS, AI etc.) with vector paths, [more info at Wikipedia](https://en.wikipedia.org/wiki/Image_tracing).
@@ -475,7 +475,7 @@ In a nutshell, image tracing means converting raster image (PNG, JPG etc.) to ve
 3. Doesn't have any [compression artifacts](https://simple.wikipedia.org/wiki/Compression_artifact).
    - If image does have artifacts, try [Pix Fix](https://pixfix.com) tool to remove them.
 
-> **Warning** \
+> [!WARNING]
 > Using tool **outside of these recommendations below** can do mediocre job and **is not acceptable.** \
 > Maintainer has tested many image tracing tools and these are only actually good ones so far (yes, even Illustrator is mediocre).
 
