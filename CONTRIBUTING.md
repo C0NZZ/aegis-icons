@@ -12,46 +12,6 @@ Contributions to the project are appreciated!
 
 ---
 
-**Table of contents**
-- [**Icon acceptability criteria**](#icon-acceptability-criteria)
-  - [Approved](#approved)
-  - [Case-by-case basis](#case-by-case-basis)
-  - [Not approved](#not-approved)
-- [**Icon creation walkthrough**](#icon-creation-walkthrough)
-  - [Software](#software)
-    - [Allowed](#allowed)
-    - [Prohibited](#prohibited)
-  - [Repository submitting options](#repository-submitting-options)
-    - [Filling requests](#filling-requests)
-  - [Finding source images](#finding-source-images)
-  - [Templates](#templates)
-  - [Layout](#layout)
-    - [Icon grid](#icon-grid)
-  - [Vectors](#vectors)
-  - [Colours](#colours)
-  - [bg.var, fg.var & fg.bg.var icons](#bgvar-fgvar--fgbgvar-icons)
-  - [Alternative icons](#alternative-icons)
-  - [Generic icons](#generic-icons)
-  - [Save and export](#save-and-export)
-  - [SVG compression & cleanup](#svg-compression--cleanup)
-- [**Technical**](#technical)
-  - [Directories](#directories)
-  - [Filename](#filename)
-    - [New versions, version naming and organising old files](#new-versions-version-naming-and-organising-old-files)
-  - [About PNGs](#about-pngs)
-  - [About JSONs](#about-jsons)
-- [**Resources**](#resources)
-  - [Logos](#logos)
-    - [Tips for searching logos](#tips-for-searching-logos)
-  - [Image tracing tools](#image-tracing-tools)
-  - [Lists of sites supporting 2FA](#lists-of-sites-supporting-2fa)
-    - [Search queries for double-checking 2FA support](#search-queries-for-double-checking-2fa-support)
-  - [Software](#software)
-- [**Issue guidelines**](#issue-guidelines)
-- [**Footnotes**](#footnotes)
-
----
-
 ## Icon acceptability criteria
 Before making or requesting an icon for an app/site, refer to the "acceptability criteria".
 
