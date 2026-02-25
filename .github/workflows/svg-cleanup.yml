@@ -32,7 +32,9 @@ jobs:
 
       - name: Install SVGO
         # Pin to version 2 to ensure compatibility with --pretty and --indent flags used in CONTRIBUTING.md
-        run: npm install -g svgo@2
+        run: |
+          npm install svgo@2 --no-save --registry=https://registry.npmjs.org/
+          echo "$(pwd)/node_modules/.bin" >> $GITHUB_PATH
 
       - name: Run SVGO
         run: |
