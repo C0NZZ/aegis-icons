@@ -3,7 +3,7 @@ Contributions to the project are appreciated!
 
 *This documentation is long and comprehensive, because the project strives for high quality for the icons and aims to minimize extra work as much as possible.*
 
-> [!WARNING]
+> [!CAUTION]
 > Contributing **requires basic knowledge of making / editing vectors with a vector graphics editor** (see the [software](#software) section).\
 > Instructions are provided for some steps, but not for everything.
 
@@ -158,7 +158,7 @@ To ensure that icons have been made correctly based of the CONTRIBUTING guidelin
 ### Finding source images
 Search through the logo resources to find a vector-based image (SVG, AI, EPS, PDF).
 
-> [!WARNING]
+> [!CAUTION]
 > Never use JPG / PNG / GIF / WebP or other raster images **(as is)!**
 
 *Here are things to check, go though these options in order:*
@@ -183,7 +183,7 @@ Search through the logo resources to find a vector-based image (SVG, AI, EPS, PD
   - :warning: Only use tools recommended in the "image tracing tools" section. *Using tool outside of the list is not acceptable.*
 - **Making a vectorised logo from scratch** is also an option with the necessary skills and patience.
 
-> [!NOTE]
+> [!TIP]
 > Is the SVG file broken? [SVG compression with SVGO or SVGOMG](#svg-compression--cleanup) might just fix the file.
 
 > [!WARNING]
@@ -217,8 +217,7 @@ When making icons, download and use provided [templates](/_templates).
 
 #### _Icon grid_
 
-*Documentation coming soon...*
-*(krisu5 will add basic documentation)*
+*Documentation coming soon... (krisu5 will add basic documentation)*
 
 ### Vectors
 - :warning: Logo must be in **single** path / compound path / object:
@@ -366,7 +365,7 @@ Next, do SVG compression & cleanup.
   - **Remove all the [elements](https://developer.mozilla.org/en-US/docs/Web/SVG/Element) and [attributes](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute) that aren't featured** in the *SVG code formatting example*.
   - *See the [example SVG code after manual cleanup](https://github.com/aegis-icons/misc/commit/c0128f61f0d2b88d5953881699955a4a17477e47?diff=split) for aimed optimal result.*
 
-> [!NOTE]
+> [!CAUTION]
 > **Test the SVG on the web browser** that the svg still works after edits! (drag-and-drop SVG to tab bar or *"Open File..." shortcut:* <kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>O</kbd>).
 
 When everything is done and ready to go, [submit icons with either as pull request or issue](#repository-submitting-options).
@@ -384,7 +383,7 @@ When everything is done and ready to go, [submit icons with either as pull reque
 - For the outdated icons, see the [new versions, version naming and organising old files](#new-versions-version-naming-and-organising-old-files) section.
 
 ### Filename
-> [!WARNING]
+> [!CAUTION]
 > When naming brand based icon(s), check how brand capitalised and spell the name from their app / website (check the capitalisation / spelling from browser tab title or body text of the website, **not from the logo!**).
 
 > [!NOTE]
@@ -443,7 +442,7 @@ Resources marked with star (:star:) are recommended / most used by the maintaine
 ### Logos
 Resources for finding logos in vector format, when no official brand kit / vector logos are available.
 
-> **Warning** \
+> [!CAUTION]
 > Remember to always double check if logo provided by these resources is the latest one company uses!
 
 - [Brandfetch](https://brandfetch.com) (not always accurate results)
@@ -464,7 +463,7 @@ More resources at [LogoSearch's "Alternative Logo Sources"](https://logosear.ch/
 
 ### Image tracing tools
 
-> [!NOTE]
+> [!CAUTION]
 > Only use image tracing tool if there's no other option, **always use ready-made vectors if available.**
 
 In a nutshell, image tracing means converting raster image (PNG, JPG etc.) to vector file (SVG, EPS, AI etc.) with vector paths, [more info at Wikipedia](https://en.wikipedia.org/wiki/Image_tracing).
@@ -482,8 +481,8 @@ In a nutshell, image tracing means converting raster image (PNG, JPG etc.) to ve
 - [Vector Magic](https://vectormagic.com) :star:
   - The one of best – if not the best – image tracer, often used by the maintainer. Unfortunately **commercial software**, trial only allows previews.
 - [Vectorizer.AI](https://vectorizer.ai) :star:
-  - From makers of Vector Magic. **Free to use while in beta**, no account needed, almost as good results as Vector Magic.
-- [Vectorizer.io](https://href.li/?https://www.vectorizer.io) :star: <!-- href.li (referrer hider) is added on purpose, preventing devs finding the loophole -->
+  - From makers of Vector Magic. Unfortunately also **commercial**, almost as good results as Vector Magic.
+- [Vectorizer.io](https://href.li/?https://www.vectorizer.io) :star: <!-- href.li (referrer hider) is added on purpose, preventing devs finding out the loophole -->
   - Not as good as previous two but still great image tracer. **Generating vectors without account / freely is possible.**
     - **There's a loophole to download the SVG:** use [SVG Gobbler](https://www.svggobbler.com) after vector is generated.
       - *Alternatively:* Inspect the output image (<kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>Shift</kbd>+<kbd>C</kbd>), copy the SVG code from dev tools and use plain text editor to create & save as SVG file.
