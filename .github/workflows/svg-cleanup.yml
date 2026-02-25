@@ -29,11 +29,13 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
+          # Set registry to public npm to avoid potential auth issues
+          registry-url: 'https://registry.npmjs.org'
 
       - name: Install SVGO
         # Pin to version 2 to ensure compatibility with --pretty and --indent flags used in CONTRIBUTING.md
         run: |
-          npm install svgo@2 --no-save --registry=https://registry.npmjs.org/
+          npm install svgo@2 --no-save
           echo "$(pwd)/node_modules/.bin" >> $GITHUB_PATH
 
       - name: Run SVGO
