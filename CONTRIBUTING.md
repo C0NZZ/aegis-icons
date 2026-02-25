@@ -4,8 +4,7 @@ Contributions to the project are appreciated!
 *This documentation is long and comprehensive, because the project strives for high quality for the icons and aims to minimize extra work as much as possible.*
 
 > [!CAUTION]
-> Contributing **requires basic knowledge of making / editing vectors with a vector graphics editor** (see the [software](#software) section).\
-> Instructions are provided for some steps, but not for everything.
+> Contributing **requires basic knowledge of making / editing vectors with a vector graphics editor** (see the [software](#software) section). Instructions are provided for some steps, but not for everything.
 
 > [!NOTE]
 > Having some **knowledge of graphic design** and design in general is **highly recommended**.
