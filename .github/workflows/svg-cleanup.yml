@@ -36,13 +36,9 @@ jobs:
           npm install svgo@2 --no-save --registry=https://registry.npmjs.org/
           echo "$(pwd)/node_modules/.bin" >> $GITHUB_PATH
 
-      - name: Debug file system
-        run: |
-          ls -R .github
-
       - name: Run SVGO
         run: |
-          bash .github/workflows/optimise.sh
+          bash _compress/optimise.sh
 
       - name: Commit and push changes
         run: |
