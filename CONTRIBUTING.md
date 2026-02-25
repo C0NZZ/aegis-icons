@@ -9,8 +9,6 @@ Contributions to the project are appreciated!
 > [!NOTE]
 > Having some **knowledge of graphic design** and design in general is **highly recommended**.
 
----
-
 ## Icon acceptability criteria
 Before making or requesting an icon for an app/site, refer to the "acceptability criteria".
 
