@@ -220,7 +220,7 @@ When making icons, download and use provided [templates](/_templates).
 *Documentation coming soon... (krisu5 will add basic documentation)*
 
 ### Vectors
-- :warning: Logo must be in **single** path / compound path / object:
+:warning: Logo must be in **single** path / compound path / object:
 
 <details>
 <summary>In <i>Adobe Illustrator</i> (click to reveal)</summary>
