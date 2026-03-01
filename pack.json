@@ -292,6 +292,14 @@
             ]
         },
         {
+            "name": "Asklepios",
+            "filename": "icons/1_Primary/Asklepios.svg",
+            "category": null,
+            "issuer": [
+                "Asklepios"
+            ]
+        },
+        {
             "name": "Asustor",
             "filename": "icons/1_Primary/Asustor.svg",
             "category": null,
@@ -313,6 +321,14 @@
             "category": null,
             "issuer": [
                 "Atlassian"
+            ]
+        },
+        {
+            "name": "Australian Government",
+            "filename": "icons/1_Primary/Australian Government.svg",
+            "category": null,
+            "issuer": [
+                "Australian Government"
             ]
         },
         {
@@ -1225,6 +1241,14 @@
             "category": null,
             "issuer": [
                 "Dashlane"
+            ]
+        },
+        {
+            "name": "Datev",
+            "filename": "icons/1_Primary/Datev.svg",
+            "category": null,
+            "issuer": [
+                "Datev"
             ]
         },
         {
@@ -2796,6 +2820,14 @@
             ]
         },
         {
+            "name": "Kualo",
+            "filename": "icons/1_Primary/Kualo.svg",
+            "category": null,
+            "issuer": [
+                "Kualo"
+            ]
+        },
+        {
             "name": "Kwansei Gakuin University",
             "filename": "icons/1_Primary/Kwansei Gakuin University.svg",
             "category": null,
@@ -3340,6 +3372,14 @@
             ]
         },
         {
+            "name": "NHS",
+            "filename": "icons/1_Primary/NHS.svg",
+            "category": null,
+            "issuer": [
+                "NHS"
+            ]
+        },
+        {
             "name": "NPM",
             "filename": "icons/1_Primary/NPM.svg",
             "category": null,
@@ -3865,6 +3905,14 @@
             "category": null,
             "issuer": [
                 "Palo Alto Networks"
+            ]
+        },
+        {
+            "name": "Paperless-ngx",
+            "filename": "icons/1_Primary/Paperless-ngx.svg",
+            "category": null,
+            "issuer": [
+                "Paperless-ngx"
             ]
         },
         {
@@ -5428,11 +5476,11 @@
             ]
         },
         {
-            "name": "Tutanota",
-            "filename": "icons/1_Primary/Tutanota.svg",
+            "name": "Tuta",
+            "filename": "icons/1_Primary/Tuta.svg",
             "category": null,
             "issuer": [
-                "Tutanota"
+                "Tuta"
             ]
         },
         {
@@ -5665,6 +5713,14 @@
             "category": null,
             "issuer": [
                 "VRChat"
+            ]
+        },
+        {
+            "name": "Vaultwarden",
+            "filename": "icons/1_Primary/Vaultwarden.svg",
+            "category": null,
+            "issuer": [
+                "Vaultwarden"
             ]
         },
         {
@@ -6188,6 +6244,14 @@
             ]
         },
         {
+            "name": "eBay",
+            "filename": "icons/1_Primary/eBay.svg",
+            "category": null,
+            "issuer": [
+                "eBay"
+            ]
+        },
+        {
             "name": "ecobee",
             "filename": "icons/1_Primary/ecobee.svg",
             "category": null,
@@ -6273,6 +6337,14 @@
             "category": null,
             "issuer": [
                 "mail.de"
+            ]
+        },
+        {
+            "name": "mailbox.org v1",
+            "filename": "icons/1_Primary/mailbox.org v1.svg",
+            "category": null,
+            "issuer": [
+                "mailbox.org v1"
             ]
         },
         {
@@ -6972,6 +7044,14 @@
             ]
         },
         {
+            "name": "Patreon bg.var",
+            "filename": "icons/2_Variations/Patreon bg.var.svg",
+            "category": null,
+            "issuer": [
+                "Patreon bg.var"
+            ]
+        },
+        {
             "name": "Philips alt",
             "filename": "icons/2_Variations/Philips alt.svg",
             "category": null,
@@ -7217,6 +7297,14 @@
             "category": null,
             "issuer": [
                 "VRChat bg.var"
+            ]
+        },
+        {
+            "name": "Vaultwarden bg.var",
+            "filename": "icons/2_Variations/Vaultwarden bg.var.svg",
+            "category": null,
+            "issuer": [
+                "Vaultwarden bg.var"
             ]
         },
         {
@@ -7956,6 +8044,14 @@
             ]
         },
         {
+            "name": "Home Assistant v1",
+            "filename": "icons/4_Outdated/Home Assistant v1.svg",
+            "category": null,
+            "issuer": [
+                "Home Assistant v1"
+            ]
+        },
+        {
             "name": "Hostwinds v1",
             "filename": "icons/4_Outdated/Hostwinds v1.svg",
             "category": null,
@@ -8124,6 +8220,14 @@
             ]
         },
         {
+            "name": "Patreon v1",
+            "filename": "icons/4_Outdated/Patreon v1.svg",
+            "category": null,
+            "issuer": [
+                "Patreon v1"
+            ]
+        },
+        {
             "name": "PayPal v1",
             "filename": "icons/4_Outdated/PayPal v1.svg",
             "category": null,
@@ -8281,6 +8385,14 @@
             "category": null,
             "issuer": [
                 "Tumblr v1"
+            ]
+        },
+        {
+            "name": "Tutanota",
+            "filename": "icons/4_Outdated/Tutanota.svg",
+            "category": null,
+            "issuer": [
+                "Tutanota"
             ]
         },
         {
