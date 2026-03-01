@@ -7044,6 +7044,14 @@
             ]
         },
         {
+            "name": "Patreon bg.var",
+            "filename": "icons/2_Variations/Patreon bg.var.svg",
+            "category": null,
+            "issuer": [
+                "Patreon bg.var"
+            ]
+        },
+        {
             "name": "Philips alt",
             "filename": "icons/2_Variations/Philips alt.svg",
             "category": null,
@@ -8209,6 +8217,14 @@
             "category": null,
             "issuer": [
                 "Paddle v1"
+            ]
+        },
+        {
+            "name": "Patreon v1",
+            "filename": "icons/4_Outdated/Patreon v1.svg",
+            "category": null,
+            "issuer": [
+                "Patreon v1"
             ]
         },
         {
